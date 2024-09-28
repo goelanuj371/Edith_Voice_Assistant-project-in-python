@@ -13,7 +13,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/goelanuj371/Edith-Voice-Assistant.git
+git clone https://github.com/goelanuj371/Edith_Voice_Assistant-project-in-python.git
 Navigate to the project directory:
 
 bash
