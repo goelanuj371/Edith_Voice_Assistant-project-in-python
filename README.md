@@ -1,50 +1,45 @@
-# Edith_Voice_Assistant-project-in-python
 Edith: A Voice Assistant
-Edith is a voice-activated assistant built using Python that provides a range of functionalities including web searches, Wikipedia summaries, language translation, and website navigation. Leveraging libraries such as pyttsx3 for text-to-speech, speech_recognition for voice command recognition, wikipedia for retrieving information, and googletrans for translation, Edith aims to offer a seamless user experience.
 
-Features
-Voice Recognition: Understands and processes voice commands for a hands-free experience.
-Wikipedia Search: Retrieves summaries from Wikipedia based on user queries.
-Web Browsing: Opens websites directly from voice commands.
-Google Search: Conducts web searches based on user input.
-Language Translation: Translates spoken sentences into various languages using Google Translate.
-Installation
-Clone the repository:
+Edith is a Python-based voice-activated assistant designed to perform tasks such as web searches, Wikipedia lookups, language translations, and website navigation. It utilizes libraries like pyttsx3 for text-to-speech, speech_recognition for voice command processing, wikipedia for retrieving summaries, and googletrans for language translation.
 
-bash
-Copy code
+Features:-
+1. Voice Recognition: Processes and executes commands hands-free.
+2. Wikipedia Search: Fetches concise summaries from Wikipedia.
+3. Web Browsing: Opens websites directly via voice commands.
+4. Google Search: Performs web searches based on user queries.
+5. Language Translation: Translates sentences into multiple languages using Google Translate.
+
+Installation:-
+1. Clone the repository:
 git clone https://github.com/goelanuj371/Edith_Voice_Assistant-project-in-python.git
-Navigate to the project directory:
 
-bash
-Copy code
+2. Navigate to the project directory:
 cd Edith-Voice-Assistant
-Install the required packages:
 
-bash
-Copy code
+3. Install the required dependencies:
 pip install -r requirements.txt
-Ensure you have a compatible version of Python installed (Python 3.12 recommended).
 
-Usage
-Run the assistant:
+4. Ensure Python 3.12 or a compatible version is installed on your system.
 
-bash
-Copy code
+Usage:-
+1.Run the assistant:
 python Edith_Voice_Assistant.py
-Speak your command to interact with the assistant. You can ask it to search Wikipedia, open websites, translate text, or search Google.
 
-Example Commands
-"Wikipedia [search term]"
-"Open [website name]"
-"Search [query]"
-"Translate [text] to [language]"
-Contributing
-Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request.
+2.Speak your command to interact with Edith. It supports the following actions:
+  Search Wikipedia.
+  Open websites.
+  Perform Google searches.
+  Translate text into various languages.
+    
+Contributing:-
+  Fork the repository.
+  Create a new branch for your feature.
+  Submit a pull request with a detailed description.
 
+Acknowledgments:-
+  Wikipedia API: For information retrieval.
+  Google Translate API: For language translation.
+  SpeechRecognition: For voice input processing.
+  pyttsx3: For text-to-speech functionality.
 
-Acknowledgments
-Wikipedia API
-Google Translate API
-SpeechRecognition Library
-pyttsx3 Library
+By Anuj Goel
